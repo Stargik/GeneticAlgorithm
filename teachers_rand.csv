@@ -1,0 +1,11 @@
+teacher_name,subject_name,lesson_type
+T1,Subject1,Practice
+T1,Subject2,Lecture
+T2,Subject1,Lecture
+T2,Subject2,Lecture
+T2,Subject3,Lecture
+T3,Subject1,Lecture
+T3,Subject2,Lecture
+T4,Subject2,Practice
+T4,Subject1,Practice
+T4,Subject3,Lecture

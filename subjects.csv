@@ -1,0 +1,18 @@
+group_name,subject_name,hours,subject_type,is_divided
+TTP41,Теорія прийняття рішень,30,Lecture,False
+TTP41,Статистичне моделювання,30,Lecture,False
+TTP41,Інтелектуальні системи,30,Lecture,False
+TTP41,Інформаційні технології,60,Lecture,False
+TTP41,Розробка ПЗ під мобільні платформи,30,Lecture,False
+TTP42,Теорія прийняття рішень,30,Lecture,False
+TTP42,Статистичне моделювання,30,Lecture,False
+TTP42,Інтелектуальні системи,30,Lecture,False
+TTP42,Інформаційні технології,60,Lecture,False
+TTP42,Розробка ПЗ під мобільні платформи,30,Lecture,False
+TK41,Теорія прийняття рішень,30,Lecture,False
+TK41,Статистичне моделювання,30,Lecture,False
+TK41,Інтелектуальні системи,30,Lecture,False
+TK41,Інформаційні технології,30,Lecture,False
+TK41,Інтелектуальна обробка даних,30,Lecture,False
+TTP41,Теорія прийняття рішень,30,Practice,True
+TTP42,Теорія прийняття рішень,30,Practice,True
