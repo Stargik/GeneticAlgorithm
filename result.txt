@@ -1,21 +1,30 @@
-Group: TK41, Day 1, Pair 3: Subject Інтелектуальна обробка даних, Teacher Пашко А.О., Room A2, Type: Lecture
-Group: TK41, Day 2, Pair 2: Subject Теорія прийняття рішень, Teacher Мащенко С.О., Room A6, Type: Lecture
-Group: TK41, Day 3, Pair 3: Subject Інтелектуальні системи, Teacher Тарануха В.Ю., Room A3, Type: Lecture
-Group: TK41, Day 4, Pair 2: Subject Статистичне моделювання, Teacher Пашко А.О., Room A4, Type: Lecture
-Group: TK41, Day 4, Pair 3: Subject Інформаційні технології, Teacher Ткаченко О.М., Room A2, Type: Lecture
-Group: TTP41, Day 1, Pair 1: Subject Теорія прийняття рішень, Teacher Мащенко С.О., Room A1, Type: Lecture
-Group: TTP41, Day 1, Pair 2: Subject Розробка ПЗ під мобільні платформи, Teacher Ткаченко О.М., Room A3, Type: Lecture
-Group: TTP41, Day 2, Pair 1: Subject Статистичне моделювання, Teacher Пашко А.О., Room A3, Type: Lecture
-Group: TTP41, Day 2, Pair 2: Subject Інтелектуальні системи, Teacher Тарануха В.Ю., Room A4, Type: Lecture
-Group: TTP41, Day 3, Pair 3: Subject Інформаційні технології, Teacher Ткаченко О.М., Room A4, Type: Lecture
-Group: TTP41, Day 4, Pair 1: Subject Інформаційні технології, Teacher Ткаченко О.М., Room A4, Type: Lecture
-Group: TTP41-п/г1, Day 4, Pair 2: Subject Теорія прийняття рішень, Teacher Зінько Т.П., Room A5, Type: Practice
-Group: TTP41-п/г2, Day 4, Pair 2: Subject Теорія прийняття рішень, Teacher Коробова М.В., Room A1, Type: Practice
-Group: TTP42, Day 1, Pair 2: Subject Інтелектуальні системи, Teacher Тарануха В.Ю., Room A1, Type: Lecture
-Group: TTP42, Day 1, Pair 3: Subject Розробка ПЗ під мобільні платформи, Teacher Ткаченко О.М., Room A1, Type: Lecture
-Group: TTP42, Day 2, Pair 2: Subject Статистичне моделювання, Teacher Пашко А.О., Room A2, Type: Lecture
-Group: TTP42, Day 2, Pair 3: Subject Інформаційні технології, Teacher Ткаченко О.М., Room A6, Type: Lecture
-Group: TTP42, Day 3, Pair 2: Subject Теорія прийняття рішень, Teacher Мащенко С.О., Room A2, Type: Lecture
-Group: TTP42, Day 4, Pair 2: Subject Інформаційні технології, Teacher Ткаченко О.М., Room A2, Type: Lecture
-Group: TTP42-п/г1, Day 4, Pair 3: Subject Теорія прийняття рішень, Teacher Коробова М.В., Room A1, Type: Practice
-Group: TTP42-п/г2, Day 2, Pair 1: Subject Теорія прийняття рішень, Teacher Зінько Т.П., Room A2, Type: Practice
+Group: Group1, Day 1, Pair 1: Subject Subject6, Teacher T5, Room Room4, Type: Lecture
+Group: Group1, Day 1, Pair 2: Subject Subject2, Teacher T3, Room Room6, Type: Lecture
+Group: Group1, Day 1, Pair 3: Subject Subject6, Teacher T5, Room Room1, Type: Practice
+Group: Group1, Day 2, Pair 1: Subject Subject6, Teacher T3, Room Room3, Type: Practice
+Group: Group1, Day 2, Pair 3: Subject Subject6, Teacher T1, Room Room1, Type: Lecture
+Group: Group1, Day 3, Pair 1: Subject Subject6, Teacher T1, Room Room1, Type: Practice
+Group: Group1, Day 3, Pair 3: Subject Subject3, Teacher T4, Room Room1, Type: Lecture
+Group: Group2, Day 1, Pair 3: Subject Subject6, Teacher T3, Room Room6, Type: Lecture
+Group: Group2, Day 2, Pair 3: Subject Subject6, Teacher T5, Room Room6, Type: Lecture
+Group: Group2, Day 3, Pair 3: Subject Subject6, Teacher T2, Room Room2, Type: Lecture
+Group: Group3, Day 2, Pair 1: Subject Subject5, Teacher T2, Room Room6, Type: Practice
+Group: Group3, Day 3, Pair 3: Subject Subject5, Teacher T5, Room Room3, Type: Lecture
+Group: Group3-п/г1, Day 1, Pair 2: Subject Subject2, Teacher T5, Room Room3, Type: Practice
+Group: Group3-п/г1, Day 1, Pair 3: Subject Subject2, Teacher T2, Room Room2, Type: Practice
+Group: Group3-п/г1, Day 4, Pair 2: Subject Subject2, Teacher T2, Room Room3, Type: Practice
+Group: Group3-п/г2, Day 1, Pair 1: Subject Subject2, Teacher T6, Room Room6, Type: Practice
+Group: Group3-п/г2, Day 1, Pair 3: Subject Subject2, Teacher T6, Room Room3, Type: Practice
+Group: Group3-п/г2, Day 3, Pair 2: Subject Subject2, Teacher T3, Room Room5, Type: Practice
+Group: Group4, Day 1, Pair 2: Subject Subject1, Teacher T1, Room Room1, Type: Lecture
+Group: Group4, Day 1, Pair 3: Subject Subject6, Teacher T4, Room Room5, Type: Lecture
+Group: Group4, Day 2, Pair 3: Subject Subject1, Teacher T6, Room Room4, Type: Lecture
+Group: Group4, Day 3, Pair 2: Subject Subject5, Teacher T2, Room Room3, Type: Lecture
+Group: Group4, Day 3, Pair 3: Subject Subject1, Teacher T3, Room Room5, Type: Lecture
+Group: Group4, Day 4, Pair 1: Subject Subject1, Teacher T6, Room Room5, Type: Lecture
+Group: Group4, Day 4, Pair 2: Subject Subject1, Teacher T3, Room Room1, Type: Lecture
+Group: Group4, Day 4, Pair 3: Subject Subject1, Teacher T6, Room Room5, Type: Lecture
+Group: Group4-п/г1, Day 1, Pair 1: Subject Subject5, Teacher T1, Room Room1, Type: Practice
+Group: Group4-п/г1, Day 2, Pair 1: Subject Subject3, Teacher T6, Room Room4, Type: Practice
+Group: Group4-п/г2, Day 1, Pair 1: Subject Subject3, Teacher T3, Room Room3, Type: Practice
+Group: Group4-п/г2, Day 2, Pair 1: Subject Subject5, Teacher T5, Room Room1, Type: Practice

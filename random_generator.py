@@ -1,10 +1,10 @@
 import random
 import csv
 
-NUM_GROUPS = 2
-NUM_SUBJECTS = 3
-NUM_TEACHERS = 4
-NUM_ROOMS = 3
+NUM_GROUPS = 4
+NUM_SUBJECTS = 6
+NUM_TEACHERS = 6
+NUM_ROOMS = 6
 GROUP_NAMES = [f"Group{i + 1}" for i in range(NUM_GROUPS)]
 SUBJECT_NAMES = [f"Subject{i + 1}" for i in range(NUM_SUBJECTS)]
 TEACHER_NAMES = [f"T{i + 1}" for i in range(NUM_TEACHERS)]
