@@ -98,16 +98,16 @@ def fitness(schedule):
 
             if teacher in teachers_in_slot:
                 result += 100
-            if group in [g[0] for g in groups_in_slot] or len(group) == 1 and group[0] in [g[0] for g in [gin[0] for gin in groups_in_slot] if g] or len(group) == 2 and group[0] in [g[0] for g in [gin[0] for gin in groups_in_slot] if len(g) == 1]:
+            if (group in [g[0] for g in groups_in_slot]) or (len(group) == 1 and group[0] in [g[0] for g in [gin[0] for gin in groups_in_slot] if g]) or (len(group) == 2 and group[0] in [g[0] for g in [gin[0] for gin in groups_in_slot] if len(g) == 1]):
                 result += 100
-            if room in [r for r, _, _ in rooms_in_slot] and (subject_type != 'Lecture' or (subject not in [s for _, s, _ in rooms_in_slot]) or (teacher not in [t for _, _, t in rooms_in_slot])):
+            if room in [r for r, _, _, _ in rooms_in_slot] and (subject_type != 'Lecture' or (subject not in [s for _, s, _, _ in rooms_in_slot]) or (teacher not in [t for _, _, t, _ in rooms_in_slot]) or ([room, subject, teacher, "Practice"] not in rooms_in_slot ) ):
                 result += 100
         else:
             used_slots[slot] = ([], [], [])
 
         used_slots[slot][0].append([group, room])
         used_slots[slot][1].append(teacher)
-        used_slots[slot][2].append([room, subject, teacher])
+        used_slots[slot][2].append([room, subject, teacher, subject_type])
 
         if subject_type == 'Practice' and is_divided and group[0] in groups and groups[group[0]][0] / 2 > auditoriums[room]:
             result += 1
@@ -184,6 +184,6 @@ def genetic_algorithm(pop_size, generations):
             break
     return max(population, key=fitness)
 
-best_schedule = genetic_algorithm(pop_size=100, generations=1000)
+best_schedule = genetic_algorithm(pop_size=100, generations=10000)
 print(f"The best schedule: {best_schedule}")
 save_schedule_to_file(best_schedule)
