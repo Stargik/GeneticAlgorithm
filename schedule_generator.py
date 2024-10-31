@@ -224,7 +224,7 @@ def genetic_algorithm(pop_size, generations):
         for _ in range(pop_size):
             parent1, parent2 = selection(population, fitness_values)
             child = crossover(parent1, parent2)
-            #child = mutate(child)
+            child = mutate(child)
             new_population.append(child)
 
         population = new_population
@@ -233,7 +233,7 @@ def genetic_algorithm(pop_size, generations):
         print(f"Generation {generation + 1}: The best fitness = {fitness(best_individual)}")
     return max(population, key=fitness)
 
-best_schedule = genetic_algorithm(pop_size=10, generations=100)
+best_schedule = genetic_algorithm(pop_size=10, generations=1000)
 print(f"The best schedule: {best_schedule}")
 save_schedule_to_file(best_schedule)
 save_schedule_to_csv_file(best_schedule)
