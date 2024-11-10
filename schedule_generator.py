@@ -131,7 +131,7 @@ def fitness(schedule):
                 return 0
             if (group in [g[0] for g in groups_in_slot]) or (len(group) == 1 and group[0] in [g[0] for g in [gin[0] for gin in groups_in_slot] if g]) or (len(group) == 2 and group[0] in [g[0] for g in [gin[0] for gin in groups_in_slot] if len(g) == 1]):
                 return 0
-            if room in [r for r, _, _, _ in rooms_in_slot] and (subject_type != 'Lecture' or (subject not in [s for _, s, _, _ in rooms_in_slot]) or (teacher not in [t for _, _, t, _ in rooms_in_slot]) or ([room, _, _, "Practice"] in rooms_in_slot)):
+            if room in [r for r, _, _, _ in rooms_in_slot] and (subject_type != 'Lecture' or (subject not in [s for _, s, _, _ in rooms_in_slot]) or (teacher not in [t for _, _, t, _ in rooms_in_slot]) or ([room, "Practice"] in [[r[0], r[3]] for r in rooms_in_slot])):
                 return 0
         else:
             used_slots[slot] = ([], [], [])
