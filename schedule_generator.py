@@ -85,7 +85,7 @@ def generate_schedule():
                         used_slots_gen[slot] = ([], [], [])   
                     _, teachers_in_slot, rooms_in_slot = used_slots_gen[slot]
                     rand_teacher = random.choice([teacher for teacher, _ in teachers.items() if not(teacher in [t for t, _, _ in teachers_in_slot] and (subject_type != 'Lecture' or ([teacher, subject, "Lecture"] not in teachers_in_slot)))])
-                    rand_room = random.choice([room for room, _ in auditoriums.items() if not(room in [r for r, _, _, _ in rooms_in_slot] and (subject_type != 'Lecture' or (subject not in [s for _, s, _, _ in rooms_in_slot]) or (rand_teacher not in [t for _, _, t, _ in rooms_in_slot]) or ([room, _, _, "Practice"] in rooms_in_slot )))])
+                    rand_room = random.choice([room for room, _ in auditoriums.items() if not(room in [r for r, _, _, _ in rooms_in_slot] and (subject_type != 'Lecture' or (subject not in [s for _, s, _, _ in rooms_in_slot]) or (rand_teacher not in [t for _, _, t, _ in rooms_in_slot]) or ([room, "Practice"] in [[r[0], r[3]] for r in rooms_in_slot])))])
                     schedule.append(([group], subject, slot, rand_teacher, rand_room, subject_type, is_divided))
                     used_slots_gen[slot][0].append([[group], rand_room])
                     used_slots_gen[slot][1].append([rand_teacher, subject, subject_type])
